@@ -17,4 +17,5 @@ services:
       - key: DB_PATH
         value: ./database/food_delivery.db
       - key: CORS_ORIGIN
-        value: https://food-delivery-platform.onrender.com 
+        value: https://food-delivery-platform.onrender.com
+    autoDeploy: true 

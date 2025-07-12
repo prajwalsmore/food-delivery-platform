@@ -15,7 +15,7 @@
 
 3. **Push to GitHub**
    ```bash
-   git remote add origin https://github.com/yourusername/food-delivery-platform.git
+   git remote add origin https://github.com/prajwalsmore/food-delivery-platform.git
    git branch -M main
    git push -u origin main
    ```

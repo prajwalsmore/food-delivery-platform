@@ -13,7 +13,8 @@
     "start": "node src/backend/server.js",
     "install:all": "npm install && cd src/frontend && npm install",
     "setup": "npm run install:all && npm run setup:db",
-    "postinstall": "cd src/frontend && npm install"
+    "postinstall": "cd src/frontend && npm install",
+    "render-build": "npm run build"
   },
   "keywords": ["food-delivery", "monorepo", "express", "react", "vite"],
   "author": "prajwalsmore",
